@@ -95,8 +95,8 @@ tabela_html += """
 """
 # parametros para envio de email
 assunto = 'Ofertas Mercado Livre'
-email_origem = 'email_origem@gmail.com'
-email_destino = 'email_destino@gmail.com'
+email_origem = 'email_origem@gmail.com' # modifique para sua aplicação
+email_destino = 'email_destino@gmail.com' # modifique para sua aplicação
 corpo = tabela_html
 
 # puchando a função criada em email_smtp.py para o envio do email
